@@ -1,0 +1,216 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url(/images/banner/banner1.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.banner {
+    max-width: 300px;
+    margin-left: 950px;
+    padding-top: 240px;
+}
+
+.banner-title {
+    color: #151414;
+    text-align: right;
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.banner-desc {
+    color: #444343;
+    text-align: right;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    padding: 10px;
+    width: 90px;
+    color: white;
+}
+
+.banner button {
+    margin-left: 210px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.girl {
+    width: 400px;
+    margin-left: 250px;
+}
+
+.info-container {
+    max-width: 300px;
+    font-weight: 100;
+    padding: 200px 400px 100px 100px;
+}
+
+.info-desc {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.info-list {
+    padding-right: 70px;
+    list-style: none;
+    font-size: 12px;
+    padding-left: 0;
+}
+
+.info-title {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.info-list li {
+    width: 400px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+section {
+    height: 50vh;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    text-align: center;
+    margin-left: 250px;
+    padding-top: 60px;
+}
+
+.my-plans {
+    text-align: center;
+    font-size: 30px;
+}
+
+.plan-title {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.plan-desc {
+    color: #7e7c7c;
+    font-weight: 400;
+}
+
+.call-now {
+    background-image: linear-gradient(to right, rgb(255, 95, 15, 0.8), rgb(247, 137, 19, 0)), url('/images/watch.png');
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 900px;
+    margin-left: 307px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.call-container {
+    height: 50vh;
+    align-items: center;
+}
+
+.call-title {
+    color: white;
+    padding: 40px 0 10px 30px;
+    font-size: 25px;
+    max-width: 300px;
+}
+
+.call-btn {
+    margin: 10px 0 10px 30px;
+    background-color: white;
+    border: 0;
+    color: rgba(255, 95, 15);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+footer {
+    height: 60vh;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-around;
+}
+
+.future {
+    max-width: 400px;
+    padding-top: 80px;
+}
+
+.future-title {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.future-desc {
+    padding-left: 18px;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.email {
+    color: white;
+    padding-left: 18px;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.phone {
+    color: white;
+    padding-left: 18px;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.icons {
+    padding-left: 10px;
+}
+
+.icons img {
+    margin: 3px;
+    width: 40px;
+}
+
+.input-form {
+    padding-top: 70px;
+    max-width: 200px;
+    margin-right: 40px;
+}
+.email-here{
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    padding-left:15px;
+    margin-left: 20px;
+}
